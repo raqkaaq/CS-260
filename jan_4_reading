@@ -1,0 +1,16 @@
+use 
+	scp <sourcefile> raqkaaq@raqkaaq.com:. to copy files to server with ssh
+	python3 -m http.server to start a python server at localhost:8000
+	http-server to start a node server
+
+An HTTP request consists of the METHOD, URL, VERSION, HEADER-VALUE pairs, and an optional ENTITY BODY
+Method types are:
+	GET	-fetch a resource
+	POST	-create a resource
+	PUT	-update a resource
+	DELETE	-delete a resource
+		Response codes are:
+			200 OK
+			304 Not Modified
+			403 Forbidden
+			404 Not Found

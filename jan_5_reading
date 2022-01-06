@@ -1,0 +1,6 @@
+To create a lab#.raqkaaq.com
+	1. Create a file named lab#.raqkaaq.com in /etc/nginx/sites-available
+	2. Copy lab1.raqkaaq.com to the file, and edit the names to fix them
+	3. Run sudo ln -s /etc/nginx/sites-available/lab#.raqkaaq.com /etc/nginx/sites-enabled/ to create a link
+	4. Create the directory /var/www/lab#.raqkaaq.com and chown it
+	5. Reload nginx, sudo service nginx reload

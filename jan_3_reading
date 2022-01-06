@@ -1,0 +1,34 @@
+DNS - Domain Name Service, client specifies name of server, and DNS returns ip
+TCP - Transmission Control Protocol, client specifies ip and port, tcp establishes connection
+	common ports:
+		80 - HTTP web server
+		443 - HTTPS server
+		25, 465 - common for emails
+		22 - SSH
+IP - internet protocol, each packet of a request is sent along routers following these rules
+	packets are recieved in a buffer, which can slow or stop transmission,
+	for lost packets TCP will resend the packets, but this causes a delay
+
+W3C standardizes web protocols such as HTML and CSS
+IETF standardizes internet protocols such as HTTP, TCP and IP
+IEEE standardizes link protocals such as Wifi and Ethernet
+
+Common codes in HTTP requests (developer tools/network) are:
+	200 OK
+	304 Not Modified(happens on refresh)
+	400 Bad Request (not formatted)
+	403 Forbidden (account info)
+	404 Not found
+	500 internal server error
+
+Linux Commands Discussed:
+	cd, mkdir, rmdir, touch, cat, less, ls, mv, chmod
+	ssh user@ip
+	sudo
+	ssh-keygen (generates a public and private key for ssh sotred in ~/.ssh, public key called id_rsa.pub, and private key called id_rsa)
+	use ssh-keygen, creates files, use ssh-copy-id <user>@host
+	ufw manages firewalls?
+	sudo ufw status, sudo ufw app list, sudo ufw allow <>
+	My ip: 157.245.1.88
+	Use sudo netstat -nlp to show what programs are running on the server
+	Used NameCheap to buy a domain name
