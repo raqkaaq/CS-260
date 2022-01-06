@@ -1,0 +1,19 @@
+git init: initialize repo
+git clone <url>: clone repo
+git log: view previous commits
+git log -p: view previous commits with diffs
+git status: list changed and new files
+git diff: view changes to files
+git add .: add all new files to repo
+git commit -a: commit all changes 
+got tag <name>: mark current commit with a name
+git remote add <remote url>: add remote repo
+git pull <remote branch>: download commits from remote repo and merge
+git push <remote branch>: upload commits to remote repo
+git push --tags: push tags to remote repo
+.gitignore contains paths and extentions to ignore
+
+git branch: list all branches
+git checkout <branch>: checkout existing branch
+git checkout -b: create and checkout new branch
+to resolve a conflict, do a pull, for mergeing pulls edit the file with the conflict, then do a push
