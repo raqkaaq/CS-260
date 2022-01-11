@@ -8,9 +8,43 @@
     color: #fff;
     background-color: #5995DA;  /* Blue */
     padding: 20px 0;
+<<<<<<< HEAD
+=======
+    display: flex;
+    justify-content: center;
+>>>>>>> 93e4b60d3e13cf0a8242115106d533e151e57412
   }
   
   .menu {
     border: 1px solid #fff;  /* For debugging */
     width: 900px;
+<<<<<<< HEAD
+=======
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links {
+        border: 1px solid #fff;  /* For debugging */
+        display: flex;
+        justify-content: flex-end;
+  }
+
+  .login {
+      margin-left: 20px;
+  }
+
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+>>>>>>> 93e4b60d3e13cf0a8242115106d533e151e57412
   }
