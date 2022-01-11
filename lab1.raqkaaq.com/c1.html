@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity C1</title>
+    </head>
+    <body>
+        <div id=navbar>
+            <ul>
+                <li class="link font"><a href=c1.html>Home</a></li>
+                <li class="link font"><a href=/var/www/html/index.html>About</a></li>
+                <li class="link font"><a>Something Or Other</a></li>
+                <li class="link font"><a>Another Random Button</a></li>
+                <li class="link font"><a href=https://www.amazon.com>Click Here For Amazon</a></li>
+            </ul>
+        </div>
+        <div id=random >
+            <h1 class=font style="font-size: xx-large;">Welcome to a Random Page</h1>
+            <p class=font>This page doesn't particularly have anything important on it. Its just a random mashup of some basic html and css.</p>
+        </div>
+    </body>
+    <style>
+        body {
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            list-style-type: none;
+
+        }
+        .link {
+            float: left;
+            height: 100%;
+            width: fit-content;
+        }
+        #navbar{
+            background-color: aqua;
+            height: fit-content;
+            width: 100%;
+        }
+        li a {
+            display: block;
+            background-color: green;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: azure !important;
+        }
+        li a:hover{
+            background-color: darkgreen;
+        }
+        .font {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            color:azure !important;
+        }
+        #random {
+            background-color: gray;
+            margin: 0 auto;
+            width: 90%;
+            height: 1000px;
+            background-repeat: no-repeat;
+        }
+    </style>
+</html>
