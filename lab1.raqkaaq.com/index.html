@@ -2,71 +2,107 @@
 <html>
     <head>
         <title>Activity C1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0;">
     </head>
     <body>
-        <div id=menu_container>
-            <div id=navbar>
-                <a class=menu_item href=index.html>Home</a>
-                <a class=menu_item href=config.html>About</a>
-                <a class=menu_item href=/home/raqkaaq/portfolio/index.html>Something Or Other</a>
-                <a class=menu_item href=/home/raqkaaq/portfolio/index.html>Another Random Button</a>
-                <a class=menu_item href=https://www.amazon.com>Click Here For Amazon</a>
+        <div id=page>           
+            <a class='menu_item' href=index.html>Home</a>
+            <a class='menu_item' href=index.html>About</a>
+            <a class='menu_item' href=config.html>Something Or Other</a>
+            <a class='menu_item' href=config.html>Another Random Button</a>
+            <a class='menu_item' href=https://www.amazon.com>Click Here For Amazon</a>
+            <div class=desk>
+                <h1 class='f1 section' class=font style="font-size: xx-large;">Welcome to a Random Page</h1>
+                <div class=pdesk>
+                    <p class='f2 section' class=font>This page doesn't particularly have anything important on it.</p>
+                    <p class='f2 section' class=font> Its just a random mashup of some basic html and css.</p>
+                </div>
             </div>
-        </div>
-        <div id=random >
-            <h1 class=font style="font-size: xx-large;">Welcome to a Random Page</h1>
-            <p class=font>This page doesn't particularly have anything important on it. Its just a random mashup of some basic html and css.</p>
-        </div>
-        <div id=another_random>
-            
+            <div class=desk>
+                <h1 class='f1 section' class=font style="font-size: xx-large;">This is another random title</h1>
+                <div class=pdesk>
+                    <p class='f2 section' class=font>It has some stuff that makes it slightly cooler than the other spot</p>
+                    <p class='f2 section' class=font>Here is a block of ice as seen from above |_|</p>
+                </div>
+            </div>
         </div>
     </body>
     <style>
-        body {
-            margin: 0;
-        }
-        .menu-container {
-            color: #fff;
-            background-color: #5995DA;  /* Blue */
-            padding: 20px 0;
+        #page{
             display: flex;
-            justify-content: center;
-        }
-        #navbar{
-            background-color: aqua;
-            height: fit-content;
-            width: 100%;
-            display:flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            background-color: coral;
         }
         .menu_item{
-            background-color: blue;
-            display: flex;
-            padding: 10px;
-            justify-content: flex-end;
-        }
-        li a {
-            display: block;
+            width: 20%;
             background-color: green;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            color: azure !important;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        li a:hover{
+        .menu_item.a:hover{
             background-color: darkgreen;
+        }
+        h1{
+            background-color: blue;
+        }
+        p {
+            background-color: crimson;
         }
         .font {
             font-family: 'Times New Roman', Times, serif;
             font-size: larger;
             color:azure !important;
         }
-        #random {
-            background-color: gray;
-            margin: 0 auto;
+        .section {
             width: 90%;
-            height: 1000px;
-            background-repeat: no-repeat;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5%;
+        }
+
+        /* Tablet Styles */
+        @media only screen and (min-width: 401px) and (max-width: 960px) {
+            .f1 {
+                width: 90%;
+            }
+            .desk{
+                width: 100%;
+            }
+            .pdesk{
+                display: flex;
+                justify-content: center;
+            }
+            .f2 {
+                width: 40%;
+                background-color: cornsilk;
+            }
+        }
+
+        /* Desktop Styles */
+        @media only screen and (min-width: 961px) {
+            .page{
+                width: 960px;
+            }
+            .desk{
+                width: 46%;
+                padding: 2%;
+            }
+            .pdesk{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .f1 {
+                width: 90%;
+                margin-bottom: 0%;
+            }
+            .f2{
+                margin-top: 0%;
+            }
         }
     </style>
 </html>
