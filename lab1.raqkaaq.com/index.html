@@ -4,40 +4,46 @@
         <title>Activity C1</title>
     </head>
     <body>
-        <div id=navbar>
-            <ul>
-                <li class="link font"><a href=c1.html>Home</a></li>
-                <li class="link font"><a href=/var/www/html/index.html>About</a></li>
-                <li class="link font"><a>Something Or Other</a></li>
-                <li class="link font"><a>Another Random Button</a></li>
-                <li class="link font"><a href=https://www.amazon.com>Click Here For Amazon</a></li>
-            </ul>
+        <div id=menu_container>
+            <div id=navbar>
+                <a class=menu_item href=index.html>Home</a>
+                <a class=menu_item href=config.html>About</a>
+                <a class=menu_item href=/home/raqkaaq/portfolio/index.html>Something Or Other</a>
+                <a class=menu_item href=/home/raqkaaq/portfolio/index.html>Another Random Button</a>
+                <a class=menu_item href=https://www.amazon.com>Click Here For Amazon</a>
+            </div>
         </div>
         <div id=random >
             <h1 class=font style="font-size: xx-large;">Welcome to a Random Page</h1>
             <p class=font>This page doesn't particularly have anything important on it. Its just a random mashup of some basic html and css.</p>
+        </div>
+        <div id=another_random>
+            
         </div>
     </body>
     <style>
         body {
             margin: 0;
         }
-        ul {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            list-style-type: none;
-
-        }
-        .link {
-            float: left;
-            height: 100%;
-            width: fit-content;
+        .menu-container {
+            color: #fff;
+            background-color: #5995DA;  /* Blue */
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
         }
         #navbar{
             background-color: aqua;
             height: fit-content;
             width: 100%;
+            display:flex;
+            justify-content: space-between;
+        }
+        .menu_item{
+            background-color: blue;
+            display: flex;
+            padding: 10px;
+            justify-content: flex-end;
         }
         li a {
             display: block;
