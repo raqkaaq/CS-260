@@ -12,20 +12,21 @@
             <a class='menu_item' href=config.html>Another Random Button</a>
             <a class='menu_item' href=https://www.amazon.com>Click Here For Amazon</a>
             <div class=desk>
-                <h1 class='f1 section' class=font style="font-size: xx-large;">Welcome to a Random Page</h1>
+                <h1 class='f1 section' class=font style="font-size: xx-large;">Interesting Stuff</h1>
                 <div class=pdesk>
                     <p class='f2 section' class=font>This page doesn't particularly have anything important on it.</p>
                     <p class='f2 section' class=font> Its just a random mashup of some basic html and css.</p>
                 </div>
             </div>
             <div class=desk>
-                <h1 class='f1 section' class=font style="font-size: xx-large;">This is another random title</h1>
+                <h1 class='f1 section' class=font style="font-size: xx-large;">Some more interesting stuff</h1>
                 <div class=pdesk>
                     <p class='f2 section' class=font>It has some stuff that makes it slightly cooler than the other spot</p>
                     <p class='f2 section' class=font>Here is a block of ice as seen from above |_|</p>
                 </div>
             </div>
         </div>
+        <div id=footer></div>
     </body>
     <style>
         #page{
@@ -45,10 +46,11 @@
             background-color: darkgreen;
         }
         h1{
-            background-color: blue;
+            background-color: lightblue;
+            height: 50px !important;
         }
         p {
-            background-color: crimson;
+            background-color: lightcyan;
         }
         .font {
             font-family: 'Times New Roman', Times, serif;
@@ -63,7 +65,11 @@
             align-items: center;
             padding: 5%;
         }
-
+        #footer{
+            background-color: blue;
+            height: 400px;
+            width: 100%;
+        }
         /* Tablet Styles */
         @media only screen and (min-width: 401px) and (max-width: 960px) {
             .f1 {
@@ -102,7 +108,9 @@
             }
             .f2{
                 margin-top: 0%;
+                padding: 3%;
             }
+       
         }
     </style>
 </html>
