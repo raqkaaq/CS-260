@@ -1,0 +1,53 @@
+/*Menu*/
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg-dark{
+    background-color: blueviolet !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #333;
+}
+  
+.nav-link {
+    color: #fff !important;
+}
+
+/* on all pages */
+body{
+    background-color: cornflowerblue;
+}
+.fonts{
+    color: #fff !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: mediumorchid;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+.wrap h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.section {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+/*Home*/
+.intro{
+    justify-content: left;
+    margin: 3%;
+    width: 42%;
+    background-color: midnightblue;
+}
