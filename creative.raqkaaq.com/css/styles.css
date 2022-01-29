@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-dark{
+    background-color: chocolate !important;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5%;
+    padding: 5%;
+    background-color: darksalmon;
+}
+.fonts{
+    font-family: 'Times New Roman', Times, serif;
+    color:sienna;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    border-style: inset;
+    border-width: 1px;
+    width: 70%;
+    margin-bottom: 3%;
+  }
+
+  /*Main page*/
+  .main{
+      width: 100%;
+      text-align: center;
+  }
+  .buttons{
+      background-color:yellow;
+      padding: 2%;
+      width: 25%;
+      text-align: center;
+  }
+  .cont{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+  }
+  /*login*/
+  .loginform{
+      display: flex;
+  }
+  .loginform form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input{
+      display: flex;
+      width: 100%;
+  }
+  #dologin{
+      width: 30%;
+  }
+
+/*account*/
+.account_info{
+    display: flex;
+    justify-content: left;
+    width: 75%;
+}
+.account_info h1{
+    width: 75%;
+}
+.profile{
+    width: 100px !important;
+    height: 100px !important;
+}
+.account{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.account_title{
+    display: flex;
+    width: 50%;
+}
