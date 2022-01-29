@@ -28,6 +28,8 @@ body{
     background-color: mediumorchid;
     margin: 5%;
     margin-bottom: 0%;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 .wrap h1 {
     display: flex;
@@ -43,14 +45,71 @@ body{
     align-items: center;
     padding: 5%;
 }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+  } 
 
 /*Home*/
 .intro{
     justify-content: left;
     margin: 3%;
-    width: 42%;
+    width: 94%;
     background-color: midnightblue;
 }
 .wrap img{
     padding: 0%;
+}
+.link{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    background-color: navy;
+    font-size: larger;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 1px;
+}
+@media only screen and (max-width: 400px) {
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+@media only screen and (min-width: 960px) {
+    .intro{
+        width: 42%;
+    }
+    .link{
+        width: 20%;
+    }
+
+}
+
+/*About*/
+.about{
+    display:flex;
+    background-color: midnightblue;
+    width: 70%;
+    padding: 5%;
+    justify-content: center;
+    height: fit-content;
+}
+
+/*Reviews*/
+.review{
+    display:block;
+    background-color: midnightblue;
+    height:fit-content;
+    margin-left: 5%;
+    width: 70%;
+}
+.wrap_review{
+    justify-content: left;
 }
