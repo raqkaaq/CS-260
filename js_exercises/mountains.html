@@ -24,7 +24,7 @@
         });
         MOUNTAINS.forEach((row) => {
             let data = document.createElement('th');
-            fields.forEach(element =>{
+            attributes.forEach(element =>{
                 let cell = document.createElement('td');
                 cell.textContent = row[element];
                 if(typeof row[element] == "number"){
