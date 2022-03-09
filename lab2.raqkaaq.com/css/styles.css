@@ -1,0 +1,132 @@
+/*Menu*/
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg-dark{
+    background-color: blueviolet !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #333;
+}
+  
+.nav-link {
+    color: #fff !important;
+}
+
+/* on all pages */
+body{
+    background-color: cornflowerblue;
+}
+.fonts{
+    color: #fff !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: mediumorchid;
+    margin: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.wrap h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.section {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 80%;
+    background-color: navy !important;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+  } 
+
+/*Home*/
+.intro{
+    justify-content: left;
+    margin: 3%;
+    width: 94%;
+    background-color: midnightblue;
+}
+.wrap img{
+    padding: 0%;
+}
+.link{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 25%;
+    background-color: wheat !important;
+    font-size: larger;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 1px;
+}
+@media only screen and (max-width: 400px) {
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+@media only screen and (min-width: 960px) {
+    .intro{
+        width: 42%;
+    }
+    .link{
+        width: fit-content;
+    }
+
+}
+
+/*About*/
+.about{
+    display:flex;
+    background-color: midnightblue;
+    width: 94%;
+    padding: 5%;
+    justify-content: center;
+    height: fit-content;
+}
+
+/*Reviews*/
+.review{
+    display:block;
+    background-color: midnightblue;
+    height:fit-content;
+    margin-left: 5%;
+    width: 70%;
+}
+.wrap_review{
+    justify-content: left;
+}
+.weather{
+    display:flex;
+    height: 80px;
+    width: 30%;
+    margin-right: 19%;
+    margin-bottom: 5px;
+}
+.content{
+    display:flex;
+    font-size: small;
+    flex-wrap: wrap;
+}
+.this{
+    flex-wrap: wrap;
+}
