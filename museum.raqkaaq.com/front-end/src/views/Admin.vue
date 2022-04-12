@@ -36,7 +36,7 @@
       <div class="upload" v-if="findItem">
         <input v-model="findItem.title" />
         <p></p>
-        <textarea v-model="findItem.description"/></textarea>
+        <textarea v-model="findItem.description"/>
         <p></p>
         <img :src="findItem.path" />
       </div>
