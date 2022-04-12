@@ -4,7 +4,7 @@
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer')
 const upload = multer({
-  dest: '../front-end/public/images/',
+  dest: '/var/www/museum.raqkaaq.com/images/',
   limits: {
     fileSize: 10000000
   }
@@ -39,7 +39,7 @@ const Item = mongoose.model('Item', itemSchema);
 // the path where the photo is stored in the file system.
 app.post('/api/photos', upload.single('photo'), async (req, res) => {
   // Just a safety check
-  if (!req.file) {
+	if (!req.file) {
     return res.sendStatus(400);
   }
   res.send({
