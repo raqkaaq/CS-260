@@ -106,7 +106,6 @@ body {
   height: 50px;
   position: fixed;
   bottom: 0;
-  padding-left: 550px;
 }
 .foot img {
   width: 35px;
