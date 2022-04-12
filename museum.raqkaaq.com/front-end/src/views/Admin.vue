@@ -36,7 +36,7 @@
       <div class="upload" v-if="findItem">
         <input v-model="findItem.title" />
         <p></p>
-        <textarea v-model="findItem.description"/>
+        <textarea v-model="findItem.description"/></textarea>
         <p></p>
         <img :src="findItem.path" />
       </div>
@@ -157,6 +157,7 @@ export default {
         });
         this.addItem = r2.data;
       } catch (error) {
+        console.log(error);
       }
     },
     async getItems() {
@@ -165,6 +166,7 @@ export default {
         this.items = response.data;
         return true;
       } catch (error) {
+        console.log(error);
       }
     },
     selectItem(item) {
@@ -178,6 +180,7 @@ export default {
         this.getItems();
         return true;
       } catch (error) {
+        console.log(error);
       }
     },
     async editItem(item) {
@@ -190,6 +193,7 @@ export default {
         this.getItems();
         return true;
       } catch (error) {
+        console.log(error);
       }
     },
   },
