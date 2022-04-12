@@ -72,7 +72,7 @@ export default {
   margin-bottom: 5px;
 }
 .info {
-  background: #7fd7f4;
+  background: greenyellow;
   color: #000;
   padding: 10px 30px;
   height: 100px;
@@ -88,7 +88,7 @@ export default {
   font-size: 10px;
 }
 .quantity {
-    color: #f26868;
+    color: blue;
     font-weight: bold;
 }
 .price {
@@ -96,7 +96,7 @@ export default {
 }
 button {
   height: 50px;
-  background: #f26868;
+  background: black;
   color: white;
   border: none;
 }
